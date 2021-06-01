@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="content-section">
+    <div class="media">
+        <img class="rounded-circle account-img" src="{% static 'profile_image.jpeg' %}">
+        <div class="media-body">
+            <h5 style="font-weight: 600;">Created by</h5>
+            <h5 class="text-secondary">Rounak Roy Chowdhury</h5>
+            <h5 class="text-secondary">rounakroy480@gmail.com</h5>
+        </div>
+    </div>
+</div>
+{% endblock %}
